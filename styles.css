@@ -1,0 +1,32 @@
+/* Sticky header shadow on scroll */
+.navbar.sticky-top {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Active link style */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important; /* Couleur dorée */
+    border-bottom: 2px solid #ffc107;
+}
+
+/* Mode sombre */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #343a40 !important;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+    color: #ffffff !important;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #ffffff;
+    color: #343a40;
+}

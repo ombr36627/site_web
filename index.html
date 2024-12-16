@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Réseaux et Télécommunications</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Inclusion du header -->
+    <?php include 'header.php'; ?>
+
+    <main>
+        <!-- Hero Section / Slider -->
+        <section id="hero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="auxerre.jpg" class="d-block w-100" alt="Image Hero 1" style="height: 80vh; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Bienvenue dans le monde des Réseaux et Télécommunications</h1>
+                        <p>Explorez les opportunités d'une carrière numérique innovante.</p>
+                        <a href="formations.php" class="btn btn-primary btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="vamos.jpg" class="d-block w-100" alt="Image Hero 2" style="height: 80vh; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Développez vos compétences en cybersécurité et IoT</h1>
+                        <p>Rejoignez une formation qui allie pratique et technologie de pointe.</p>
+                        <a href="ecoles.php" class="btn btn-primary btn-lg">Découvrez les écoles</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="mb-4">Pourquoi choisir Réseaux et Télécommunications ?</h2>
+                    <p class="lead">Le BUT Réseaux et Télécommunications vous ouvre les portes d'un domaine en constante évolution. Découvrez une formation qui combine expertise technique, innovation, et perspectives de carrière.</p>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="technologie.jpg" alt="Icon Tech" class="mb-3" style="max-width: 120px;">
+                                <h5 class="card-title">Technologie Avancée</h5>
+                                <p class="card-text">Apprenez les dernières technologies en matière de réseaux, télécommunications et IoT.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="carrière.jpg" alt="Icon Career" class="mb-3" style="max-width: 120px;">
+                                <h5 class="card-title">Carrière Prometteuse</h5>
+                                <p class="card-text">Préparez-vous à des métiers comme ingénieur réseau, administrateur système ou expert en cybersécurité.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <img src="projetcollab.jpg" alt="Icon Collaboration" class="mb-3" style="max-width: 120px;">
+                                <h5 class="card-title">Projets Collaboratifs</h5>
+                                <p class="card-text">Travaillez sur des projets concrets en partenariat avec des entreprises innovantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="cta" class="py-5 text-white bg-primary text-center">
+            <div class="container">
+                <h2 class="mb-4">Prêt à rejoindre la révolution numérique ?</h2>
+                <p class="lead">Inscrivez-vous dès aujourd'hui et démarrez votre carrière dans un secteur d'avenir.</p>
+                <a href="contact.php" class="btn btn-light btn-lg">Contactez-nous</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Inclusion du footer -->
+    <?php include 'footer.php'; ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
